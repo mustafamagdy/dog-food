@@ -1,0 +1,5 @@
+# relay data-plane caches — rebuildable, not source.
+# Everything else under .relay/ (tracker / memory / coord / prompts source) is
+# git-native state meant to be committed so the server sees it.
+*.index.db
+.index.db

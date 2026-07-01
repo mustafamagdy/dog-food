@@ -1,0 +1,6 @@
+.relay/tracker/issues.jsonl merge=union
+.relay/tracker/templates.jsonl merge=union
+.relay/tracker/plans.jsonl merge=union
+.relay/memory/expertise/*.jsonl merge=union
+.relay/prompts/prompts.jsonl merge=union
+.relay/prompts/schemas.jsonl merge=union

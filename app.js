@@ -1,3 +1,4 @@
+// Health check: Todos API server entry point.
 const express = require('express');
 
 const app = express();

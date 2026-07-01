@@ -13,6 +13,7 @@ npm start        # serves http://localhost:3000
 
 | Method | Path           | Description                          |
 |--------|----------------|--------------------------------------|
+| GET    | `/health`      | Health check. Returns `200 { "status": "ok" }`. |
 | GET    | `/todos`       | List all todos.                      |
 | POST   | `/todos`       | Create a todo (`{ "title": "..." }`).|
 | DELETE | `/todos/:id`   | Delete a todo by id. Returns `204 No Content` on success, `404` if the id doesn't exist, `400` if the id is invalid. |

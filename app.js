@@ -3,6 +3,11 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
+// Health check.
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
+
 // In-memory todo store (keyed by numeric id).
 const todos = new Map();
 let nextId = 1;

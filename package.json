@@ -1,0 +1,14 @@
+{
+  "name": "todos-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal todos REST API (Express).",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

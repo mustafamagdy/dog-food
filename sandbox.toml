@@ -1,0 +1,5 @@
+[sandbox]
+read_only_paths = [
+  "/Users/mmagdy/Home/saas/_sdlc_void/study/_platform/monorepo",
+  "~/.bun",
+]

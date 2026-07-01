@@ -1,0 +1,21 @@
+{
+  "attachments": [],
+  "created_at": "2026-07-01T08:23:29.764Z",
+  "id": "coord-e0d4fca2",
+  "intent": {
+    "constraints": [
+      "Use the pino library for logging",
+      "Each request emits one JSON log line containing at minimum: method, path, status code, latency (durationMs), and requestId"
+    ],
+    "goal": "Add structured request logging that emits one JSON log line per API call, capturing method, path, status code, latency, and a request id.",
+    "non_goals": [
+      "Logging request or response bodies",
+      "Logging request headers (e.g. auth tokens)"
+    ],
+    "success_criteria": []
+  },
+  "name": "Conversation",
+  "schema_version": 1,
+  "status": "drafting",
+  "updated_at": "2026-07-01T08:28:23.505Z"
+}

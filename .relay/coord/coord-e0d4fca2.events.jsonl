@@ -12,3 +12,5 @@
 {"type":"intent_edited","actor":"agent:chat","at":"2026-07-01T08:31:11.674Z","data":{"field":"non_goals","value":["Logging request/response bodies.","Logging headers (auth tokens, etc.)."]}}
 {"type":"intent_edited","actor":"agent:chat","at":"2026-07-01T08:31:11.674Z","data":{"field":"constraints","value":["Use Pino as the logger.","Each log line captures at minimum: method, path, status, durationMs, requestId."]}}
 {"type":"intent_edited","actor":"agent:chat","at":"2026-07-01T08:31:11.674Z","data":{"field":"success_criteria","value":["Every API route emits exactly one JSON log line per request.","Each line is valid JSON and includes the required fields (method, path, status, durationMs, requestId).","requestId is unique per request.","Automated tests verify all of the above."]}}
+{"type":"run_dispatched","actor":"user:operator","at":"2026-07-01T08:51:45.857Z","data":{"run_id":"run-th4hy2hp58mn","agent":"planner","model":"glm-5.2","project":"prj-h10rktqckkh2"}}
+{"type":"run_dispatched","actor":"user:operator","at":"2026-07-01T08:59:27.161Z","data":{"run_id":"run-rne5grjjc8rz","agent":"planner","model":"glm-5.2","project":"prj-h10rktqckkh2"}}

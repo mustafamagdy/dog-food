@@ -1,0 +1,7 @@
+{"type":"coord_created","actor":"user:operator","at":"2026-07-02T01:36:07.481Z","data":{"name":"Conversation"}}
+{"type":"run_dispatched","actor":"user:operator","at":"2026-07-02T01:36:47.870Z","data":{"run_id":"run-qsgvj51000zh","agent":"chat","model":"glm-5.2","project":"prj-h10rktqckkh2"}}
+{"type":"run_dispatched","actor":"user:operator","at":"2026-07-02T01:50:59.404Z","data":{"run_id":"run-bs95pxwtsc1b","agent":"chat","model":"glm-5.2","project":"prj-h10rktqckkh2"}}
+{"type":"intent_edited","actor":"agent:chat","at":"2026-07-02T01:51:37.772Z","data":{"field":"goal","value":"Every API request emits a single structured JSON log line."}}
+{"type":"intent_edited","actor":"agent:chat","at":"2026-07-02T01:51:37.772Z","data":{"field":"non_goals","value":["Logging request/response bodies.","Logging headers (auth tokens, etc.)."]}}
+{"type":"intent_edited","actor":"agent:chat","at":"2026-07-02T01:51:37.772Z","data":{"field":"constraints","value":["Use Pino as the logger.","Each log line captures at minimum: method, path, status, durationMs, requestId."]}}
+{"type":"intent_edited","actor":"agent:chat","at":"2026-07-02T01:51:37.772Z","data":{"field":"success_criteria","value":["Every API route emits exactly one JSON log line per request.","Each line is valid JSON and includes the required fields (method, path, status, durationMs, requestId).","requestId is unique per request.","Automated tests verify all of the above."]}}

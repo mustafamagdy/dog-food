@@ -3,3 +3,5 @@
 # git-native state meant to be committed so the server sees it.
 *.index.db
 .index.db
+.index.db-shm
+.index.db-wal

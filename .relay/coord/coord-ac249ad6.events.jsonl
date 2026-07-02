@@ -1,0 +1,2 @@
+{"type":"coord_created","actor":"user:operator","at":"2026-07-02T02:22:03.110Z","data":{"name":"Conversation"}}
+{"type":"run_dispatched","actor":"user:operator","at":"2026-07-02T02:22:42.912Z","data":{"run_id":"run-zz2wmbzme0ng","agent":"chat","model":"glm-5.2","project":"prj-h10rktqckkh2"}}

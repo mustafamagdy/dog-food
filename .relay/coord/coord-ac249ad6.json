@@ -1,0 +1,26 @@
+{
+  "attachments": [],
+  "created_at": "2026-07-02T02:22:03.110Z",
+  "id": "coord-ac249ad6",
+  "intent": {
+    "constraints": [
+      "Use Pino for logging.",
+      "Capture method, path, status, durationMs, and requestId on each request log line.",
+      "Emit exactly one log line per request."
+    ],
+    "goal": "Every API request emits exactly one structured JSON log line via Pino.",
+    "non_goals": [
+      "No request or response body logging.",
+      "No header logging."
+    ],
+    "success_criteria": [
+      "Each request produces exactly one valid JSON log line containing all required fields (method, path, status, durationMs, requestId).",
+      "Each request gets a unique requestId.",
+      "Automated test coverage via node --test verifies the logging behavior."
+    ]
+  },
+  "name": "Conversation",
+  "schema_version": 1,
+  "status": "drafting",
+  "updated_at": "2026-07-02T02:26:25.808Z"
+}
